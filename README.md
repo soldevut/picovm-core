@@ -108,7 +108,7 @@ const agent = new AgentRuntime(vm, {
 // 3. Execute sandboxed code mode logic
 const result = await agent.eval(`
   const price = await solana.getOraclePrice("SOL/USD");
-  if (price < 185.00) {
+  if (price < 110.00) {
     return solana.executeMarketOrder({ pair: "SOL/USDC", amount: 1.5 });
   }
   return { status: "HOLD", currentPrice: price };
