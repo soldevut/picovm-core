@@ -1,0 +1,6 @@
+{
+  "name": "picovm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sub-atomic Virtual Machine & SDK for Frontier Embedded Agents"
+}
